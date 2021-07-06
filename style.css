@@ -1,7 +1,32 @@
-body{
+* {
+    margin: 0;
+}
+ body {
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+}
+
+body{
+    
     margin: 0;
+}
+    
+.navbar {
+    overflow: hidden;
+    background-color: #0b0e17;
+}  
+.navbar a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 35px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar img{
+    width:7%;
+    float: left;
 }
 .heading-color{
     color:#575757;
@@ -30,23 +55,7 @@ p{
     width: 100%;
     height:20%;   
 }
-.navbar {
-    overflow: hidden;
-    background-color: #0b0e17;
 
-}  
-.navbar a{
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 35px 20px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-.navbar img{
-    width:7%;
-    float: left;
-  }
 .diet-container{
     display:flex;
     height: 500px;
@@ -62,28 +71,32 @@ p{
     background-repeat: no-repeat;
     background-position: left;
     background-size: 100% 80%;
-    padding-bottom: 110px; 
+    padding-bottom: 80px; 
+}
+.about-container h4{
+    color:#575757;
 }
 #second-image{
     width: 50%;
     margin-left: 20%;
     margin-top: 18%;
-    height:90%;
+    height:85%;
 }
 .division-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    margin-top: 2%;
 }
 .division-width img{
     width: 80%;
     margin-top: 5%;
     height: 100%;
-    margin-left: 5%;
+    margin-left: 1%;
 }
 .about-margin{
-    margin-top:10%;
+    margin-top:12%;
 }
 .division-width h3{
     margin-top: 110px;
@@ -93,7 +106,7 @@ p{
 }
 .recipe-container{
     height: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 55px;
 }
 
 .recipe-container p{
@@ -101,12 +114,12 @@ p{
     width:400px;
     font-size:15px;
     word-break:break-all;
-    margin-left: 38%;
+    margin-left: 37%;
     
 }
 .recipe-container h3{
     text-align: center;
-    color: #575757;
+    color: #6e6e6e;
 }
 .food-container{
     display:flex;
@@ -116,13 +129,15 @@ p{
     height: 80%;
     border-radius: 30px;
 }
+
 .chefs-container h3{
     text-align: center;
     color: #575757;
+    margin-top: 40px;
 }
 .chefs-container p{
     width:400px;
-    font-size:15px;
+    font-size:12px;
     word-break:break-all;
     margin-left: 38%;
     
@@ -132,14 +147,15 @@ p{
     
 }
 .description-container div{
-    box-shadow: 5px 7px 40px whitesmoke;
+    box-shadow: 5px 0px 0px whitesmoke;
     height: 80%;
     
 }
 footer{
     text-align: center;
-    background-color: #0B0E17;
-     
+    background-color: #0B0E17; 
+    width: 100%;
+        
 }
 footer h5 span{
     color: #DB7F41;
@@ -151,6 +167,4 @@ footer h5{
 footer p{
     padding-bottom: 15px;
 }
-.copy width{
-    padding-bottom: 10px;
-}
+
